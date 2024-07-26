@@ -1,0 +1,77 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #333;
+	background-image: url("img/background.jpg");
+  background-size: cover;
+  
+}
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+ 
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav a.active {
+  color: white;
+}
+h2{
+	color: white;
+}
+
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+form label {
+	display: block;
+	color: white;
+	margin-bottom: 5px;
+}
+
+form input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+form button {
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #333;
+}
+p{
+	color: white;
+}
